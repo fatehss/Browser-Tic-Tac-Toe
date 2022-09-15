@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {   
+    text-align: center;
+    height: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+    border: 1px solid black;
+}
+#turn-prompt {
+
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
